@@ -1,8 +1,8 @@
 # 주식왕 다운로드
 
-[주식왕 소개·다운로드 페이지](https://skim72.github.io/stockking-downloads/) · [APK와 변경 내역](https://github.com/SKIM72/stockking-downloads/releases)
+[웹에서 시작하기](https://skim72.github.io/stockking-downloads/app/) · [주식왕 소개·다운로드 페이지](https://skim72.github.io/stockking-downloads/) · [APK와 변경 내역](https://github.com/SKIM72/stockking-downloads/releases)
 
-주식왕은 가상 자산으로 시세·주문·기업 투자·은행·시즌 순위를 즐기는 Android 주식 게임입니다. 실제 주식 주문이나 현금 투자를 제공하지 않습니다.
+주식왕은 가상 자산으로 시세·주문·기업 투자·은행·시즌 순위를 즐기는 웹·Android 주식 게임입니다. 같은 계정으로 로그인하면 서버에 저장된 잔액·보유 주식·주문을 함께 이용합니다. 로그인 없이 사용하는 연습 모드는 각 기기에 저장합니다. 실제 주식 주문이나 현금 투자를 제공하지 않습니다.
 
 ## 테스트 APK
 
@@ -12,4 +12,4 @@ APK는 기존 개발 키로 서명했으며 정식 배포용이 아닙니다. �
 
 2026-10-11 서버 연결을 안정화하고 있습니다. 시세 갱신·로그인·거래가 일시적으로 제한될 수 있습니다. 정식 서명과 Android 실기기 설치·거래 검증은 아직 진행 예정입니다.
 
-이 저장소에는 공개 소개 페이지와 APK만 배포합니다. 서버 키·DB 설정·Android 정식 서명 키는 포함하지 않습니다. 테스트 버전은 prerelease로 게시하며, 정식 APK 자동 업데이트 채널과 구분합니다.
+이 저장소에는 공개 소개 페이지·웹 앱 빌드와 APK를 배포합니다. 서버 키·DB 설정·Android 정식 서명 키는 포함하지 않습니다. 웹의 Android 광고 재생·APK 설치 기능은 지원하지 않습니다. 테스트 버전은 prerelease로 게시하며, 정식 APK 자동 업데이트 채널과 구분합니다.
