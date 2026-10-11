@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="주식왕 — 가상의 시장에서 주문하고, 기업에 투자하고, 시즌 순위에 도전하는 주식 게임.">
+  <meta name="theme-color" content="#ffffff">
+  <title>주식왕 · Android 다운로드</title>
+  <style>
+    :root { color-scheme: light; --ink:#172132; --muted:#647184; --line:#e3e8ee; --red:#dd3346; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:#fff; font-family:system-ui,-apple-system,"Segoe UI",sans-serif; line-height:1.65; word-break:keep-all; }
+    a { color:inherit; text-underline-offset:4px; }
+    a:focus-visible { outline:3px solid #225bcd; outline-offset:5px; }
+    .wrap { width:min(1080px,calc(100% - 48px)); margin:auto; }
+    header { height:82px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
+    .brand { display:flex; align-items:center; gap:9px; font-size:21px; font-weight:800; text-decoration:none; }
+    .brand svg { width:28px; height:28px; color:var(--red); }
+    .top-link { font-size:14px; color:var(--muted); }
+    .hero { display:grid; grid-template-columns:1.08fr 1fr; gap:70px; align-items:center; padding:88px 0 72px; }
+    .eyebrow { color:var(--red); font-weight:700; font-size:13px; letter-spacing:.1em; }
+    h1 { font-size:clamp(36px,4.8vw,56px); line-height:1.2; letter-spacing:-.055em; margin:18px 0 22px; }
+    .intro { max-width:440px; font-size:17px; color:var(--muted); margin-bottom:30px; }
+    .button { display:inline-flex; align-items:center; gap:16px; background:var(--red); color:white; text-decoration:none; padding:14px 22px; font-weight:700; border-radius:5px; }
+    .meta { margin:14px 0 0; font-size:12px; color:var(--muted); }
+    .market { border-top:3px solid var(--ink); border-bottom:1px solid var(--line); padding:24px 0 0; }
+    .market-head { display:flex; justify-content:space-between; font-size:13px; color:var(--muted); }
+    .market-name { font-size:20px; font-weight:700; margin:20px 0 3px; }
+    .price { display:flex; align-items:baseline; gap:16px; }
+    .price strong { font-size:36px; letter-spacing:-.04em; font-variant-numeric:tabular-nums; }
+    .up { color:var(--red); font-size:14px; font-weight:600; }
+    .chart { display:block; width:100%; height:auto; margin:20px 0 12px; }
+    .order { display:flex; justify-content:space-between; padding:14px 0; border-top:1px solid var(--line); font-size:13px; }
+    .label { color:var(--muted); }
+    .sample { font-size:11px; color:var(--muted); margin:10px 0 0; }
+    .features { border-top:1px solid var(--line); }
+    .feature { display:grid; grid-template-columns:76px 1fr 1fr; gap:32px; padding:32px 0; border-bottom:1px solid var(--line); align-items:start; }
+    .num { color:var(--red); font-size:13px; font-weight:700; }
+    h2 { font-size:23px; margin:0; letter-spacing:-.035em; }
+    .feature p { margin:0; font-size:15px; color:var(--muted); }
+    .install { padding:60px 0 56px; display:grid; grid-template-columns:1fr 1fr; gap:70px; }
+    .install h2 { margin-bottom:14px; }
+    .install p,.install ol { color:var(--muted); font-size:14px; margin-top:0; }
+    .install ol { padding-left:20px; }
+    .install li { padding:5px 0; }
+    footer { border-top:1px solid var(--line); padding:24px 0 30px; font-size:12px; color:var(--muted); display:flex; justify-content:space-between; gap:24px; }
+    @media(max-width:760px) {
+      .wrap { width:calc(100% - 40px); }
+      header { height:70px; }
+      .hero { grid-template-columns:1fr; gap:42px; padding:48px 0; }
+      .intro { font-size:16px; }
+      .market { max-width:460px; }
+      .feature { grid-template-columns:30px 1fr; gap:12px; padding:25px 0; }
+      .feature p { grid-column:2; }
+      .install { grid-template-columns:1fr; gap:14px; padding:40px 0; }
+      footer { flex-direction:column; gap:8px; }
+    }
+    @media(prefers-reduced-motion:no-preference) { .button { transition:background .15s; } .button:hover { background:#be2637; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="./" aria-label="주식왕 홈">
+        <svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M3 23h22V7L15 16l-5-4-7 7z" fill="currentColor" opacity=".15"/><path d="m3 19 7-7 5 4L25 6M18 6h7v7" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg>주식왕
+      </a>
+      <a class="top-link" href="https://github.com/SKIM72/stockking-downloads/releases">업데이트 내역 ↗</a>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="title">
+        <div>
+          <span class="eyebrow">VIRTUAL STOCK GAME</span>
+          <h1 id="title">나의 투자 전략,<br>가상의 시장에서.</h1>
+          <p class="intro">시세를 살피고, 주문을 걸고, 기업에 투자하세요. 주식왕에서 나만의 포트폴리오를 만들고 시즌 순위에 도전해 보세요.</p>
+          <a class="button" href="https://github.com/SKIM72/stockking-downloads/releases/download/v1.0.0-preview.1/VirtualStock-v1.0.0-preview.apk">Android 테스트 APK <span aria-hidden="true">↓</span></a>
+          <p class="meta">v1.0.0 Preview · Android 7.0 이상 · ARM64</p>
+          <p class="meta">개발 키로 서명한 테스트 버전입니다.</p>
+        </div>
+        <div>
+          <div class="market" aria-label="가상의 시세와 주문 화면 예시">
+            <div class="market-head"><span>시장</span><span>가상 종목</span></div>
+            <div class="market-name">주식왕 테크</div>
+            <div class="price"><strong>52,400</strong><span class="up">+2.34%</span></div>
+            <svg class="chart" viewBox="0 0 420 148" role="img" aria-label="상승과 하락을 거듭하는 예시 가격 차트">
+              <path d="M0 28h420M0 75h420M0 122h420" stroke="#e3e8ee"/>
+              <path d="m0 115 18-9 17 5 20-26 20 12 18-23 18 9 18-20 19 14 18-7 20 13 20-34 19 6 18-20 20 10 19-25 20 7 18-10 20 4 23-21" fill="none" stroke="#dd3346" stroke-width="2.5" stroke-linejoin="round"/>
+            </svg>
+            <div class="order"><span class="label">지정가 매수 · 10주</span><strong>매수 대기</strong></div>
+            <div class="order"><span class="label">시장가 매도 · 5주</span><strong>체결 완료</strong></div>
+          </div>
+          <p class="sample">화면 설명을 위한 예시이며 실제 서비스 시세가 아닙니다.</p>
+        </div>
+      </section>
+      <section class="features" aria-label="주식왕에서 할 수 있는 것">
+        <article class="feature"><span class="num">01</span><h2>시세와 뉴스를 함께</h2><p>시장·업종·기업의 흐름과 뉴스가 반영되는 가상 시세를 살펴보세요. 가격은 6초 주기로 갱신됩니다.</p></article>
+        <article class="feature"><span class="num">02</span><h2>주문부터 체결까지</h2><p>시장가·지정가 주문을 넣고 대기, 체결, 취소 상태를 확인하세요. 주문은 서버 시세 갱신에 맞춰 처리됩니다.</p></article>
+        <article class="feature"><span class="num">03</span><h2>기업 투자와 가상 은행</h2><p>기업 지분에 투자하고 가상 대출을 관리하세요. 이자 자동 납부를 설정하면 사용 가능한 잔액에서 납부합니다.</p></article>
+      </section>
+      <section class="install" aria-labelledby="install-title">
+        <div><h2 id="install-title">설치하고 시작하기</h2><p>이번 APK는 서버 연결과 개선된 기능을 확인하는 테스트 버전입니다. 기존 앱과 서명 키가 다르면 업데이트 설치가 제한될 수 있습니다.</p><p><a href="https://github.com/SKIM72/stockking-downloads/releases/tag/v1.0.0-preview.1">다운로드 정보와 체크섬 보기 ↗</a></p></div>
+        <ol><li>Android 휴대폰에서 테스트 APK를 다운로드합니다.</li><li>설치 화면의 안내에 따라 해당 출처의 앱 설치를 허용합니다.</li><li>앱에서 회원가입과 메일 인증을 마치거나 기존 계정으로 로그인합니다.</li></ol>
+      </section>
+    </main>
+    <footer><span>주식왕 · 가상 자산으로 즐기는 주식 게임</span><span>실제 주식 주문이나 현금 투자를 제공하지 않습니다.</span></footer>
+  </div>
+</body>
+</html>
