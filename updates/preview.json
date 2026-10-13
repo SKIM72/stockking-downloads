@@ -1,11 +1,11 @@
 {
-  "versionName": "1.4.0",
-  "versionCode": 1004000,
-  "minVersionCode": 1004000,
+  "versionName": "1.4.1",
+  "versionCode": 1004001,
+  "minVersionCode": 1004001,
   "packageName": "com.stockking.game.dev",
-  "apkUrl": "https://github.com/SKIM72/stockking-downloads/releases/download/v1.4.0-preview.1/VirtualStock-v1.4.0-preview.apk",
-  "size": 55486665,
-  "sha256": "a4df001b2b86f29e69d61ec1869515735fd801961e663720a0c12aa391d11c68",
-  "notes": "주식왕 v1.4.0 Preview\n\n인수한 기업에서 연구개발·마케팅·사업 확장·현금 확보를 선택하고, 납품·신제품·운영 개선 수주 프로젝트를 진행할 수 있습니다. 진행 1건과 예약 2건, 시작 전 취소·환불, 오프라인 경과분 정산과 결과 기록을 제공합니다.\n\n홈·내 정보의 투자 결산에서 주식·기업·경영·부동산·이자 손익을 확인합니다. 이번 버전부터 종료한 시즌은 최종 결산을 보존합니다. 오늘 관측 손익과 최대 자산 하락은 표시된 관측 기준을 사용합니다.\n\n실제 시세 모드는 기존 가상경제와 별도로 준비합니다. 제공사 연결 전이므로 현재 메뉴는 준비 안내이며 실제 가격·주문·순위는 제공하지 않습니다.\n\n142개 검사·전체 타입 검사·격리 DB/API 동시 요청·시즌 정산·Linux AMD64 실행 검증, Safari 경영 예약·390px 결산 화면과 APK 버전·서명·체크섬 검사를 통과했습니다. Android 실기기의 새 기능·업데이트 설치는 별도 확인이 필요합니다.\n\nARM64 · Android 7.0 이상 · Metro 불필요 · 기존 Preview와 동일한 패키지·개발 서명 · 기존 계정·자산 유지.\n",
+  "apkUrl": "https://github.com/SKIM72/stockking-downloads/releases/download/v1.4.1-preview.1/VirtualStock-v1.4.1-preview.apk",
+  "size": 55481289,
+  "sha256": "dc3bbcb9c7a5d5236d0121db3248001a69e7ae247e6268fb0f656378a0d4a5af",
+  "notes": "주식왕 v1.4.1 Preview\n\n로그인하면 프로필 사진·닉네임·자산·순위가 있는 ‘내 정보’로 이동합니다. 로그인한 상태의 상단 버튼과 기존 계정 링크에서도 같은 프로필을 열 수 있으며 계정 설정·로그아웃을 그 안에서 이용합니다.\n\n화면 아이콘을 채움 없는 Outline 스타일로 통일했습니다. 선택된 하단 메뉴에서도 선형 아이콘을 유지하고 색상과 배경으로 구분합니다. 브랜드 앱 이미지와 투자자 캐릭터, 기존 게임 기능을 유지합니다.\n\n앱 타입 검사·웹/Android 빌드와 APK 버전·서명·SHA-256을 확인했습니다. 격리 테스트 계정으로 Safari의 로그인·프로필 이동·로그아웃·재로그인과 390px 다크/라이트 화면을 확인했습니다. Android 실기기의 설치와 화면 동작은 별도로 확인해야 합니다.\n\nARM64 · Android 7.0 이상 · Metro 불필요 · 기존 Preview와 동일한 패키지·개발 서명 · 기존 계정·자산 유지.\n\nAPI·DB 코드 및 서버 설치가 없는 UI 업데이트입니다. NeulRemote·Caddy·DDNS·서버 설정이나 서비스를 변경하지 않았습니다.\n",
   "message": "최신 버전으로 업데이트한 뒤 플레이할 수 있습니다."
 }
