@@ -1,11 +1,11 @@
 {
-  "versionName": "1.4.1",
-  "versionCode": 1004001,
-  "minVersionCode": 1004001,
+  "versionName": "1.5.0",
+  "versionCode": 1005000,
+  "minVersionCode": 1005000,
   "packageName": "com.stockking.game.dev",
-  "apkUrl": "https://github.com/SKIM72/stockking-downloads/releases/download/v1.4.1-preview.1/VirtualStock-v1.4.1-preview.apk",
-  "size": 55481289,
-  "sha256": "dc3bbcb9c7a5d5236d0121db3248001a69e7ae247e6268fb0f656378a0d4a5af",
-  "notes": "주식왕 v1.4.1 Preview\n\n로그인하면 프로필 사진·닉네임·자산·순위가 있는 ‘내 정보’로 이동합니다. 로그인한 상태의 상단 버튼과 기존 계정 링크에서도 같은 프로필을 열 수 있으며 계정 설정·로그아웃을 그 안에서 이용합니다.\n\n화면 아이콘을 채움 없는 Outline 스타일로 통일했습니다. 선택된 하단 메뉴에서도 선형 아이콘을 유지하고 색상과 배경으로 구분합니다. 브랜드 앱 이미지와 투자자 캐릭터, 기존 게임 기능을 유지합니다.\n\n앱 타입 검사·웹/Android 빌드와 APK 버전·서명·SHA-256을 확인했습니다. 격리 테스트 계정으로 Safari의 로그인·프로필 이동·로그아웃·재로그인과 390px 다크/라이트 화면을 확인했습니다. Android 실기기의 설치와 화면 동작은 별도로 확인해야 합니다.\n\nARM64 · Android 7.0 이상 · Metro 불필요 · 기존 Preview와 동일한 패키지·개발 서명 · 기존 계정·자산 유지.\n\nAPI·DB 코드 및 서버 설치가 없는 UI 업데이트입니다. NeulRemote·Caddy·DDNS·서버 설정이나 서비스를 변경하지 않았습니다.\n",
+  "apkUrl": "https://github.com/SKIM72/stockking-downloads/releases/download/v1.5.0-preview.1/VirtualStock-v1.5.0-preview.apk",
+  "size": 55499041,
+  "sha256": "2ba922e5f4ecce4ba468f067ff4f5f1aaf87fbc8ed7b1f2d435fe014a1f908e7",
+  "notes": "v1.5.0 필수 업데이트\n\n앱 복귀 때 업데이트 확인 화면이 번쩍이는 동작을 개선합니다. 홈에서 출석 보상을 바로 찾고, 신규 출석 보상은 가상경제 게임 현금으로 받습니다.\n\n별도 실제 시세 모드의 주간 모의 계좌를 준비할 수 있습니다. 시세 제공사는 미연결이며 가격·주문·체결·경쟁 순위는 아직 비활성입니다.\n\n기존 계정과 자산을 보존합니다.\n",
   "message": "최신 버전으로 업데이트한 뒤 플레이할 수 있습니다."
 }
