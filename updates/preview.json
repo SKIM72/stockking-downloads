@@ -1,11 +1,11 @@
 {
-  "versionName": "1.3.1",
-  "versionCode": 1003001,
-  "minVersionCode": 1003001,
+  "versionName": "1.4.0",
+  "versionCode": 1004000,
+  "minVersionCode": 1004000,
   "packageName": "com.stockking.game.dev",
-  "apkUrl": "https://github.com/SKIM72/stockking-downloads/releases/download/v1.3.1-preview.1/VirtualStock-v1.3.1-preview.apk",
-  "size": 55437093,
-  "sha256": "bf2f5ece663ae3b29aeb9bbbc2dbed75227c4105b749dbc516ea1994088ac901",
-  "notes": "홈의 주식 거래·내 보유 종목 버튼과 시즌 순위 박스 사이에 16dp 여백을 추가했습니다.\n\n기존 계정·자산·프로필·시즌 기능과 Preview 서명을 유지합니다. 웹과 Android에 동일하게 반영됩니다.\n",
+  "apkUrl": "https://github.com/SKIM72/stockking-downloads/releases/download/v1.4.0-preview.1/VirtualStock-v1.4.0-preview.apk",
+  "size": 55486665,
+  "sha256": "a4df001b2b86f29e69d61ec1869515735fd801961e663720a0c12aa391d11c68",
+  "notes": "주식왕 v1.4.0 Preview\n\n인수한 기업에서 연구개발·마케팅·사업 확장·현금 확보를 선택하고, 납품·신제품·운영 개선 수주 프로젝트를 진행할 수 있습니다. 진행 1건과 예약 2건, 시작 전 취소·환불, 오프라인 경과분 정산과 결과 기록을 제공합니다.\n\n홈·내 정보의 투자 결산에서 주식·기업·경영·부동산·이자 손익을 확인합니다. 이번 버전부터 종료한 시즌은 최종 결산을 보존합니다. 오늘 관측 손익과 최대 자산 하락은 표시된 관측 기준을 사용합니다.\n\n실제 시세 모드는 기존 가상경제와 별도로 준비합니다. 제공사 연결 전이므로 현재 메뉴는 준비 안내이며 실제 가격·주문·순위는 제공하지 않습니다.\n\n142개 검사·전체 타입 검사·격리 DB/API 동시 요청·시즌 정산·Linux AMD64 실행 검증, Safari 경영 예약·390px 결산 화면과 APK 버전·서명·체크섬 검사를 통과했습니다. Android 실기기의 새 기능·업데이트 설치는 별도 확인이 필요합니다.\n\nARM64 · Android 7.0 이상 · Metro 불필요 · 기존 Preview와 동일한 패키지·개발 서명 · 기존 계정·자산 유지.\n",
   "message": "최신 버전으로 업데이트한 뒤 플레이할 수 있습니다."
 }
