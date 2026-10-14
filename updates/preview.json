@@ -1,11 +1,11 @@
 {
-  "versionName": "1.5.2",
-  "versionCode": 1005002,
-  "minVersionCode": 1005002,
+  "versionName": "1.6.0",
+  "versionCode": 1006000,
+  "minVersionCode": 1006000,
   "packageName": "com.stockking.game.dev",
-  "apkUrl": "https://github.com/SKIM72/stockking-downloads/releases/download/v1.5.2-preview.1/VirtualStock-v1.5.2-preview.apk",
-  "size": 55516069,
-  "sha256": "31c7e60a103695b1c4e2917aba64f972c398efb9e3a8761d18afe508f46cdc1f",
-  "notes": "v1.5.2 하단 메뉴 개선\n\n원형 선택 표시가 메뉴 사이를 부드럽게 이동하고 아이콘·글자 색도 자연스럽게 바뀝니다. 로그인 후 상단의 중복 ‘내 정보’ 버튼은 없앴으며, 프로필은 하단 ‘내 정보’에서 엽니다.\n\n동작 줄이기 설정을 반영합니다. 기존 계정과 자산을 이어서 이용합니다.\n",
+  "apkUrl": "https://github.com/SKIM72/stockking-downloads/releases/download/v1.6.0-preview.1/VirtualStock-v1.6.0-preview.apk",
+  "size": 55544393,
+  "sha256": "a6fd167acfb396002171233fa53ebc0989827fc21f7eda9c66486228600bfcb2",
+  "notes": "실제 시세 모드에서 종목을 검색하고 관심목록과 주문 계획을 준비해 보세요. 직접 정한 가정 가격·수량·목표로 손익을 계산하고 최대 20개 계획을 이 기기에 계정별로 저장할 수 있습니다. 저장은 주문 접수·자산·순위에 반영되지 않습니다.\n\n시세 제공사는 아직 미연결입니다. 실제 가격·차트·모의 주문·경쟁은 연결 후 열리며, 저장한 계획이 자동 제출되지 않습니다. 앱 이용 안내에서 현실 시간·별도 자금·주간 시즌 규칙을 확인하세요.\n",
   "message": "최신 버전으로 업데이트한 뒤 플레이할 수 있습니다."
 }
